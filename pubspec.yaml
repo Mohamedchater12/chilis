@@ -1,0 +1,38 @@
+name: chilis
+description: A new Flutter project for a restaurant app.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  shared_preferences: ^2.0.15
+
+ # Dépendance HTTP pour les requêtes réseau
+  # Ajoutez ici d'autres dépendances si nécessaire
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # Déclaration des assets (images, icônes, etc.)
+  assets:
+    - assets/images/im1.png
+    - assets/images/im2.png
+    - assets/images/im3.png
+
+
+# Optionnel : Dépendances pour les polices personnalisées (si nécessaire)
+# fonts:
+#   - family: Roboto
+#     fonts:
+#       - asset: assets/fonts/Roboto-Regular.ttf
+#       - asset: assets/fonts/Roboto-Bold.ttf
+#         weight: 700
